@@ -1,0 +1,142 @@
+
+
+/* top part */
+
+.container {
+    top: 70px;
+    position: absolute;
+    height: 100vh;
+    z-index: 0;
+}
+
+.slide {
+    display: block;
+}
+.container>div:nth-child(2)>.card{
+    object-fit: cover;
+    animation: slide-in-left 500ms;
+    height: 100%;
+    width: 100vw;
+}
+
+.container> div:nth-child(3)>.card{
+    object-fit: cover;
+    animation: slide-in-left 500ms;
+    height: 100%;
+    width: 100vw;
+}
+.card{
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.223);
+    z-index: 1;
+}
+
+img {
+    position: relative;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+}
+
+@keyframes slide-in-left {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0%);
+    }
+}
+
+.image-text{
+    display: block;
+    position: absolute;
+    left: 10%;
+    top: 40%;
+    z-index: 1;
+    color: white;
+    font-size: 80px;
+    font-family: "Montserrat Medium";
+    max-width: 40ch;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+#second{
+    text-align: right;
+    right: 10%;
+}
+
+.tag_line{
+    font-size: 58px;
+}
+
+.tag_price{
+    font-size: 12px;
+}
+
+button{
+    font-size: 12px;
+    width: 148px;
+    height: 52px;
+    padding: 0 35px 0 35px;
+    border-radius: 30px;
+    border: 0px;
+}
+
+.toggle-button{
+    position: absolute;
+    top: 1.5rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+}
+
+.toggle-button .bar{
+    height: 3px;
+    width: 100%;
+    background-color: #000;
+    border-radius: 10px;
+}
+/* top part */
+
+/* category */
+
+#container-category{
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+}
+
+/* media queries */
+
+@media all and (min-width:501px) and (max-width:800px){
+    .center{
+        display: none;
+    }
+
+    .toggle-button{
+        display: flex;
+    }
+    .container {
+        width: 100vw;
+        z-index: 0;
+    }
+}
+
+@media all and (min-width:200px) and (max-width:500px){
+    #logo{
+        display: none;
+    }
+    .center{
+        display: none;
+    }
+
+    .toggle-button{
+        display: flex;
+    }
+}
+
+
