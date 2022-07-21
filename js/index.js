@@ -1,4 +1,4 @@
-const imgs = document.querySelectorAll(".container .slide");
+const imgs = document.querySelectorAll(".top-container .slide");
 
 let currentIndex = 0;
 let time = 5000; // default time for auto slideshow
