@@ -4,14 +4,14 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Headphone Zone: Login</title>
+        <title>Headphone Zone: SignUp</title>
         <link
             rel="icon"
             href="https://i.im.ge/2022/07/19/FFqeOh.png"
             type="image/x-icon"
         />
         <link rel="stylesheet" href="css/all.css" />
-        <link rel="stylesheet" href="css/login.css" />
+        <link rel="stylesheet" href="css/signup.css" />
     </head>
     <body>
         <!--navbar-->
@@ -55,8 +55,8 @@
         <!--Spacer-->
         <!--Login Form-->
 
-        <div id="login-form">
-            <h1 id="login-form-heading">LOGIN</h1>
+        <div id="signup-form">
+            <h1 id="login-form-heading">REGISTER</h1>
             <form>
                 <div id="links">
                     <div>
@@ -90,6 +90,12 @@
 
                 <div id="input-taking">
                     <input
+                        type="text"
+                        id="firstName"
+                        placeholder="First name"
+                    />
+                    <input type="text" id="lastName" placeholder="Last name">
+                    <input
                         type="email"
                         id="email"
                         placeholder="Email"
@@ -101,7 +107,7 @@
                         placeholder="Password"
                     />
                     <button>LOGIN</button>
-                    <p>New Customer? <a href="signup.html">Create an account</a></p>
+                    <p>Already have an account? <a href="login.html">Login</a></p>
                 </div>
             </form>
         </div>

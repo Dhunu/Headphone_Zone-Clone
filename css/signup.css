@@ -7,13 +7,13 @@ body{
     height: 120px;
 }
 
-#login-form{
+#signup-form{
     width: 500px;
     margin: auto;
     text-align: center;
 }
 
-#login-form-heading{
+#signup-form-heading{
     font-weight: 600;
     font-size: 30px;
     margin: auto;
