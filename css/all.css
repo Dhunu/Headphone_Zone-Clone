@@ -15,9 +15,9 @@
     justify-content: space-evenly;
     align-items: center;
     font-weight: 600;
-    color: grey;
+    color: #444444;
     font-size: 15px;
-    background-color: rgb(231, 231, 231);
+    background-color: #f9f9f9;
     z-index: 1000;
     text-align: center;
 }
