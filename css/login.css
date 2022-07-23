@@ -1,37 +1,40 @@
-body{
+body {
     width: 100vw;
 }
 
-#spacer{
+#spacer {
     width: 100%;
     height: 120px;
 }
 
-#login-form{
+#login-form {
     width: 500px;
     margin: auto;
     text-align: center;
 }
 
-#login-form-heading{
+#login-form-heading {
     font-weight: 600;
     font-size: 30px;
     margin: auto;
 }
 
-form{
+
+
+form {
     margin-top: 20px;
     width: 100%;
     min-width: 400px;
 }
 
-#links{
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: space-evenly;
+#links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 50px;
 }
 
-#links>div{
+#links > div {
     display: flex;
     width: 130px;
     height: 50px;
@@ -41,26 +44,26 @@ form{
     align-items: center;
     margin: 10px;
     color: white;
+    cursor: pointer;
 }
-#links>div:nth-child(1){
-    background-color: #3D5595;
+#links > div:nth-child(1) {
+    background-color: #3d5595;
 }
-#links>div:nth-child(1) img{
+#links > div:nth-child(1) img {
     width: 50px;
     height: 50px;
     border-radius: 30px;
 }
 
-#links>div:nth-child(1)>span{
-   justify-content: center;
+#links > div:nth-child(1) > span {
+    justify-content: center;
 }
 
-
-#links>div:nth-child(2){
-    background-color: #4285F4;
+#links > div:nth-child(2) {
+    background-color: #4285f4;
 }
 
-#links>div:nth-child(2) img{
+#links > div:nth-child(2) img {
     width: 65px;
     height: 48px;
     border-radius: 30px;
@@ -69,56 +72,56 @@ form{
     margin-left: 1px;
 }
 
-#links>div:nth-child(3){
-    background-color: #50ABF2;
+#links > div:nth-child(3) {
+    background-color: #50abf2;
 }
 
-#links>div:nth-child(3) img{
+#links > div:nth-child(3) img {
     width: 60px;
     height: 50px;
     border-radius: 30px;
     padding-left: 10px;
 }
 
-#form-text{
+#form-text {
     display: flex;
     justify-content: center;
     width: 100%;
     margin-top: 50px;
 }
 
-hr{
+hr {
     width: 35%;
     height: 1px;
     align-self: center;
 }
 
-#form-text span{
+#form-text span {
     text-transform: uppercase;
     font-size: 80%;
     width: 40%;
 }
 
-form p{
+form p {
     margin-top: 50px;
 }
 
-#input-taking>p{
+#input-taking > p {
     font-size: 14px;
-    font-family: "Roboto",sans-serif;
+    font-family: "Roboto", sans-serif;
     text-align: center;
     margin-top: 45px;
     font-weight: 100;
 }
 
-#input-taking{
+#input-taking {
     display: flex;
     flex-direction: column;
     margin: auto;
     margin-top: 50px;
 }
 
-input{
+input {
     height: 50px;
     border-radius: 30px;
     border: 1px solid rgba(128, 128, 128, 0.403);
@@ -126,100 +129,101 @@ input{
     margin: 10px 0px;
 }
 
-#input-taking>button{
+#input-taking > button {
     height: 50px;
     border-radius: 30px;
     border: 0px;
     margin-top: 50px;
-    background-color: #3C07FF;
+    background-color: #3c07ff;
     color: white;
     font-size: 20px;
     letter-spacing: 2px;
+    cursor: pointer;
 }
 
-#input-taking p{
+#input-taking p {
     color: grey;
 }
 
-#input-taking a{
+#input-taking a {
     color: grey;
 }
 
 /* footer */
 
-#footer{
+#footer {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     padding: 30px;
     margin-top: 100px;
     justify-content: space-between;
-    background-color: #F9F9F9;
+    background-color: #f9f9f9;
     text-align: left;
 }
 
-#footer>div{
+#footer > div {
     width: 200px;
     margin-top: 20px;
 }
-#footer>div>div{
+#footer > div > div {
     margin-top: 10px;
 }
 
-.causion>p{
+.causion > p {
     line-height: 1.5rem;
 }
 
-.causion>a{
+.causion > a {
     color: #000;
 }
-table{
+table {
     margin-top: 20px;
 }
 
-table, th {
+table,
+th {
     border: 1px solid rgba(128, 128, 128, 0.277);
     border-collapse: collapse;
-  }
+}
 
-  th{
-    padding:10px;
-  }
-  table img{
+th {
+    padding: 10px;
+}
+table img {
     width: 20px;
     height: 20px;
-  }
-  body>hr{
+}
+body > hr {
     width: 100vw;
     height: 1px;
     border: 1px solid rgba(0, 0, 0, 0.105);
-  }
+}
 
-  body>p{
+body > p {
     padding: 40px;
     text-align: center;
     color: #444444;
-    font-family: 'Roboto',sans-serif;
+    font-family: "Roboto", sans-serif;
     font-size: 14px;
-    background-color: #F9F9F9;
-  }
+    background-color: #f9f9f9;
+}
 
-  body>p>a{
+body > p > a {
     color: #444444;
-  }
-  
+}
+
 /* footer */
 
-@media all and (max-width:800px){
-    #login-form{
+@media all and (max-width: 800px) {
+    #login-form {
         width: 400px;
         padding-left: 10px;
         padding-right: 10px;
     }
 
-    #login-form-heading{
-       text-align: center;
-       margin: auto;
+    #login-form-heading {
+        text-align: center;
+        margin: auto;
     }
-
 }

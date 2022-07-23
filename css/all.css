@@ -21,6 +21,10 @@
     z-index: 1000;
     text-align: center;
 }
+
+#navbar>a{
+    text-decoration: none;
+}
 #navbar > div{
     display: flex;
 }

@@ -16,14 +16,16 @@
     <body>
         <!--navbar-->
 
-        <div id="navbar">
-            <div id="logo">
-                <img src="https://i.im.ge/2022/07/19/FFqeOh.png" alt="" />
-                <div>
-                    Headphone <br />
-                    Zone
+        <div id="navbar" >
+            <a href="index.html">
+                <div id="logo">
+                    <img src="https://i.im.ge/2022/07/19/FFqeOh.png" alt="" />
+                    <div>
+                        Headphone <br />
+                        Zone
+                    </div>
                 </div>
-            </div>
+            </a>
             <div class="center">
                 <ul>
                     <li><a href="#">Categories</a></li>
@@ -57,7 +59,7 @@
 
         <div id="login-form">
             <h1 id="login-form-heading">LOGIN</h1>
-            <form>
+            <div>
                 <div id="links">
                     <div>
                         <img
@@ -88,7 +90,7 @@
 
                 <p>Please enter your email and password:</p>
 
-                <div id="input-taking">
+                <form id="input-taking">
                     <input
                         type="email"
                         id="email"
@@ -99,11 +101,12 @@
                         type="password"
                         id="password"
                         placeholder="Password"
+                        required
                     />
-                    <button>LOGIN</button>
+                    <button type="submit">LOGIN</button>
                     <p>New Customer? <a href="signup.html">Create an account</a></p>
-                </div>
-            </form>
+                </form>
+            </div>
         </div>
 
         <!--Login form-->
@@ -194,4 +197,5 @@
     </body>
 </html>
 
-<script src="navbar.js"></script>
+<script src="js/navbar.js"></script>
+<script src="js/login.js"></script>
